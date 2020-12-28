@@ -1,46 +1,30 @@
 {
   "main": {
-    "name":"Nordic-Giant Project",
-    "description":"I am a web development engineer and I use react and python to develop pages. This project is a resume template that can be used as the project home page or resume page",
+    "name":"Rachel Molloy",
+    "description":"I am a Mechanical Engineer-turned-Software-Developer who is super passionate about coding, automating workflows, and data visualization! Currently employed at a medical device company, Becton Dickinson, in an Engineering Development Program, I work with an Antibody Development Team to develop and support software solutions to automate their workflow",
     "image":"profilepic.jpg",
-    "bio":"Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.",
-    "contactmessage":"Here is where you should write your message to readers to have them get in contact with you.",
-    "email": "youremailhere@gmail.com",
-    "phone": "555-555-5555",
-    "github":"https://github.com/nordicgiant2/react-nice-resume",
-    "project":"https://github.com/nordicgiant2/react-nice-resume",
+    "bio":"Although I've always been interested in coding, it wasn't until graduating college and taking online Python courses that I found my true passion for software. I started with a few Python Coursera courses before developing my first two web apps in React! From there, I developed a true passion for UI and data visualization, and have been hooked ever since. When I'm not working or coding side projects, you can find me either running around the beautiful Wasatch Mountains, climbing or bouldering rock faces (both inside and out), huddled up in a chair reading, or hitting the slopes for some fresh pow.",
+    "contactmessage":"Get in contact with me!",
+    "email": "remolloy101@gmail.com",
+    "phone": "281-753-7807",
+    "github":"https://github.com/remolloy1010",
+    "project":"https://github.com/remolloy1010/react-nice-resume",
     "address":{
-      "street":"(Your Street)",
-      "city":"(Your City)",
-      "state":"(Your State)",
-      "zip": "(Your Zip/Postal Code)"
+      "city":"Sandy",
+      "state":"Utah",
+      "zip": "84093"
     },
     "website": "http://www.timbakerdev.com",
     "resumedownload":"http://timbakerdev.com",
     "social":[
       {
-        "name":"facebook",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
-        "className":"fa fa-facebook"
-      },
-      {
-        "name":"twitter",
-        "url":"http://twitter.com",
-        "className":"fa fa-twitter"
-      },
-      {
         "name":"linkedin",
-        "url":"https://www.linkedin.com/in/tim-baker-8420009a/",
+        "url":"https://www.linkedin.com/in/rachelmolloy1996/",
         "className":"fa fa-linkedin"
       },
       {
-        "name":"instagram",
-        "url":"http://instagram.com/tbaker_x",
-        "className":"fa fa-instagram"
-      },
-      {
         "name":"github",
-        "url":"https://github.com/nordicgiant2/react-nice-resume",
+        "url":"https://github.com/remolloy1010",
         "className":"fa fa-github"
       }
     ]
@@ -49,60 +33,100 @@
     "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
     "education":[
       {
-        "school":"University?",
-        "degree":"Masters in Beer tasting",
-        "graduated":"April 2007",
-        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
-      },
-      {
-        "school":"School #1 Maybe College?",
-        "degree":"What did you study 101",
-        "graduated":"March 2003",
+        "school":"Virgina Tech",
+        "degree":"B.S. Mechanical Engineering",
+        "graduated":"May 2019",
         "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
       }
     ],
+    "certifications":[
+      {
+        "course": "The Data Scientist's Toolbox",
+        "site":"Coursera",
+        "date":"June 2020",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "course": "Python Classes and Inheritance",
+        "site":"Coursera",
+        "date":"Mar 2020",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "course": "Data Collection and Processing with Python",
+        "site":"Coursera",
+        "date":"Feb 2020",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "course": "Python Functions, Files and Dictionaries",
+        "site":"Coursera",
+        "date":"Jan 2020",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "course": "Python Basics",
+        "site":"Coursera",
+        "date":"Dec 2019",
+        "description":"Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      }
+    ],
+    
     "work":[
       {
-        "company":"Awesome Design Studio",
-        "title":"Senior UX God ",
-        "years":"March 2010 - Present",
+        "company":"Becton Dickinson",
+        "title":"R&D Engineer, Engineering Development Program",
+        "years":"July 2019 - Present",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       },
       {
-        "company":"Super Cool Studio",
-        "title":"Junior bug fixer",
-        "years":"March 2007 - February 2010",
+        "company":"Intuitive Surgical",
+        "title":"Systems Engineering Intern",
+        "years":"June 2018 - May 2019",
+        "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+      },
+      {
+        "company":"NASA Langley Research Center",
+        "title":"NIFS Intern in Structural Mechanics and Concepts Branch",
+        "years":"Aug 2017 - Dec 2017",
         "description":"Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
       }
     ],
     "skills":[
       {
-        "name":"Python",
-        "level":"60%"
-      },
-      {
-        "name":"VueJs",
-        "level":"55%"
-      },
-      {
-        "name":"ReactJs",
-        "level":"50%"
-      },
-      {
         "name":"CSS",
-        "level":"90%"
+        "description":"I use Git for all of my projects so far. I have used Git for version control in small teams and have toyed around with contributing to Open Source Projects.",
+        "image":"css4.jpg"
       },
       {
-        "name":"PHP",
-        "level":"80%"
+        "name":"R",
+        "description":"I use Git for all of my projects so far. I have used Git for version control in small teams and have toyed around with contributing to Open Source Projects.",
+        "image":"R.png"
       },
       {
-        "name":"Swift",
-        "level":"50%"
+        "name":"React JS",
+        "description":"I use Git for all of my projects so far. I have used Git for version control in small teams and have toyed around with contributing to Open Source Projects.",
+        "image":"react.jpg"
       },
       {
-        "name":"JAVA",
-        "level":"80%"
+        "name":"Python",
+        "description":"I use Git for all of my projects so far. I have used Git for version control in small teams and have toyed around with contributing to Open Source Projects.",
+        "image":"python2.jpg"
+      },
+      {
+        "name":"Shiny",
+        "description":"I use Git for all of my projects so far. I have used Git for version control in small teams and have toyed around with contributing to Open Source Projects.",
+        "image":"shiny.png"
+      },
+      {
+        "name":"Git",
+        "description":"I use Git for all of my projects so far. I have used Git for version control in small teams and have toyed around with contributing to Open Source Projects.",
+        "image":"git.jpg"
+      },
+      {
+        "name":"Matlab",
+        "description":"I use Git for all of my projects so far. I have used Git for version control in small teams and have toyed around with contributing to Open Source Projects.",
+        "image":"matlab.png"
       }
     ]
   },
@@ -115,10 +139,10 @@
         "url":"https://www.canadianwanderlust.com"
       },
       {
-        "title":"Fury Fighting Gear",
+        "title":"Project Portfolio Timelines",
         "category":"(offline now) A fighting gear company I started",
         "image":"fury-fighting-gear.jpg",
-        "url":"http://www.timbakerdev.com"
+        "url":"calendar-timelines.web.app"
       },
       {
         "title":"Original Thai Food",

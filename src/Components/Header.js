@@ -1,5 +1,15 @@
 import React, { Component } from 'react';
-import ParticlesBg  from "particles-bg";
+// import ParticlesBg  from "particles-bg";
+
+
+const styles = {
+   imageStyles: {
+      backgroundColor: 'red',
+      width: 300,
+      height: 300,
+      display: 'grid'
+   }
+}
 
 class Header extends Component {
   render() {
@@ -17,7 +27,7 @@ class Header extends Component {
 
     return (
       <header id="home">
-      <ParticlesBg type="circle" bg={true} />
+      {/* <ParticlesBg type="color" bg={true} /> */}
       <nav id="nav-wrap">
          <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
@@ -38,8 +48,9 @@ class Header extends Component {
             <h3>{description}.</h3>
             <hr />
             <ul className="social">
-               <a href={project} className="button btn project-btn"><i className="fa fa-book"></i>Project</a>
-               <a href={github} className="button btn github-btn"><i className="fa fa-github"></i>Github</a>
+               {networks}
+               {/* <a href={project} className="button btn project-btn"><i className="fa fa-book"></i>Project</a>
+               <a href={github} className="button btn github-btn"><i className="fa fa-github"></i>Github</a> */}
             </ul>
          </div>
       </div>

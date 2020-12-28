@@ -20,6 +20,11 @@ class Resume extends Component {
         <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
         <p>{education.description}</p></div>
       })
+      var certifications = this.props.data.certifications.map(function(certifications){
+        return <div key={certifications.course}><h3>{certifications.course}</h3>
+        <p className="info">{certifications.site} <span>&bull;</span><em className="date">{certifications.date}</em></p>
+        <p>{certifications.description}</p></div>
+      })
       var work = this.props.data.work.map(function(work){
         return <div key={work.company}><h3>{work.company}</h3>
             <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
@@ -27,14 +32,22 @@ class Resume extends Component {
         </div>
       })
 
-      var skills = this.props.data.skills.map((skills)=>{
-        var className = 'bar-expand '+skills.name.toLowerCase();
-        return (
-          <li key={skills.name}>
-            <span style={{width:skills.level, backgroundColor:this.getRandomColor()}}className={className}></span><em>{skills.name}</em>
-          </li>
-        )
-      })
+      // var skills = this.props.data.skills.map((skills)=>{
+      //   var className = 'bar-expand '+skills.name.toLowerCase();
+      //   return (
+      //     <li key={skills.name}>
+      //       <span style={{width:skills.level, backgroundColor:this.getRandomColor()}}className={className}></span><em>{skills.name}</em>
+      //     </li>
+      //   )
+      // })
+      var skills = this.props.data.skills.map(function(skills){
+        var projectImage = 'images/tech/'+skills.image;
+          return <div key={skills.name} className="columns feature-item">
+                    <img className='skill' alt={skills.name} src={projectImage} />
+                    <h5>{skills.name}</h5>
+                    <p>{skills.description}</p>
+                 </div>
+        })
     }
 
     return (
@@ -54,6 +67,20 @@ class Resume extends Component {
          </div>
       </div>
 
+      <div className="row certifications">
+         <div className="three columns header-col">
+            <h1><span>Certifications</span></h1>
+         </div>
+
+         <div className="nine columns main-col">
+            <div className="row item">
+               <div className="twelve columns">
+                 {certifications}
+               </div>
+            </div>
+         </div>
+      </div>
+
 
       <div className="row work">
 
@@ -68,7 +95,7 @@ class Resume extends Component {
 
 
 
-      <div className="row skill">
+      {/* <div className="row skill">
 
          <div className="three columns header-col">
             <h1><span>Skills</span></h1>
@@ -84,8 +111,51 @@ class Resume extends Component {
 					  {skills}
 					</ul>
 				</div>
-			</div>
+
+			</div> */}
+
+      {/* <div className="row skill">
+
+         <div className="three columns header-col">
+            <h1><span>Favorite Tech</span></h1>
+         </div>
+
+         <div>
+           <div className="nine columns main-col"><p className="lead center">{skillmessage}</p></div>
+				   <ul className="bgrid-quarters s-bgrid-thirds cf">
+					  {skills}
+					 </ul>
+			  </div>
+      </div> */}
+      <div className="row skill">
+
+         <div className="three columns header-col">
+            <h1><span>Favorite Tech</span></h1>
+         </div>
+
+         <div>
+           <div className="nine columns main-col"><p className="lead center">{skillmessage}</p></div>
+				   <ul className="bgrid-quarters s-bgrid-quarters cf">
+					  {skills}
+					 </ul>
+			  </div>
       </div>
+
+{/* <div className="row skill">
+
+         <div className="three columns header-col">
+            <h1><span>Favorite Tech</span></h1>
+         </div>
+
+         <div>
+           <div className="nine columns main-col"><p className="lead center">{skillmessage}</p></div>
+				   <ul className="bgrid-halves s-bgrid-halves cf">
+					  {skills}
+					 </ul>
+			  </div>
+      </div> */}
+
+      {/* </div> */}
    </section>
     );
   }
