@@ -11,7 +11,7 @@ class Portfolio extends Component {
           <div key={projects.title} className="columns portfolio-item">
             <div className="item-wrap">
               <a href={projects.url} title={projects.title}>
-                <img alt={projects.title} src={projectImage} style={{height:'100%', width:'100%'}}/>
+                <img alt={projects.title} src={projectImage} style={{height:'200px', width:'100%'}}/>
                 <div className="overlay">
                   <div className="portfolio-item-meta">
                     <h5>{projects.title}</h5>
@@ -34,7 +34,7 @@ class Portfolio extends Component {
 
             <h1>Check Out Some of My Works.</h1>
 
-            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+            <div id="portfolio-wrapper" className="bgrid-thirds s-bgrid-thirds cf">
               {projects}
             </div>
           </div>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import EmailIcon from '@material-ui/icons/Email';
 
 class Contact extends Component {
   render() {
@@ -17,24 +18,22 @@ class Contact extends Component {
     return (
       <section id="contact">
 
-         <div className="row section-head">
 
-            <div className="two columns header-col">
+            {/* <div className="two columns header-col">
 
                <h1><span>Get In Touch.</span></h1>
 
-            </div>
+            </div> */}
 
-            <div className="ten columns">
+            {/* <div className="ten columns">
 
                   <p className="lead">{message}</p>
 
-            </div>
+            </div> */}
 
-         </div>
 
          <div className="row">
-            <div className="eight columns">
+            {/* <div className="eight columns">
 
                <form action="" method="post" id="contactForm" name="contactForm">
 					<fieldset>
@@ -66,27 +65,27 @@ class Contact extends Component {
                      </span>
                   </div>
 					</fieldset>
-				   </form>
+				   </form> */}
 
-           <div id="message-warning"> Error boy</div>
+           {/* <div id="message-warning"> Error boy</div>
 				   <div id="message-success">
                   <i className="fa fa-check"></i>Your message was sent, thank you!<br />
 				   </div>
-           </div>
+           </div> */}
 
 
-            <aside className="four columns footer-widgets">
-               <div className="widget widget_contact">
-
-					   <h4>Address and Phone</h4>
+            {/* <aside className="four columns footer-widgets"> </aside> */}
+            
+               <div> <br/>
+               <EmailIcon style={{ color: 'white', fontSize: '70px'}} > </EmailIcon>
+               <h1>Get In Touch!</h1>
 					   <p className="address">
-						   {name}<br />
-						   {/* {street} <br /> */}
-						   {city}, {state} {zip}<br />
-						   <span>{phone}</span>
+						   <span> {name} </span> <br/>
+						   <span> {email} </span> <br/> 
+                     <span> {phone} </span> <br/>
 					   </p>
 				   </div>
-            </aside>
+            
       </div>
    </section>
     );

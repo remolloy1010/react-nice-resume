@@ -295,7 +295,13 @@ h6 {
   font-size: 14px;
   line-height: 30px;
 }
-.subheader {
+.contacts {
+  text-align: center;
+  color: white;
+  justify-content: center;
+}
+.contacts-small {
+  text-align: center;
 }
 
 p {
