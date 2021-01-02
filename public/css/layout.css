@@ -37,8 +37,8 @@ header {
   /* width: 100%; */
   text-align: center;
   overflow: hidden;
-  background-color: green;
-  background-image: url("https://i.pinimg.com/originals/fe/50/08/fe5008454a439dd129e33ff731ed3120.jpg");
+  background-color: black;
+  background-image: url("https://cdn.pixabay.com/photo/2019/06/11/04/41/mountain-4266068_1280.jpg");
   /* background-image: url("https://i.redd.it/23tqga0ozw441.jpg"); */
   /* background-image: url("https://i.pinimg.com/originals/58/c2/e5/58c2e56fb6eba0758b44dff8ed49cf63.jpg"); */
   background-repeat: no-repeat;
@@ -59,6 +59,8 @@ header .banner {
   width: 85%;
   padding-bottom: 30px;
   text-align: center;
+  background-color: rbga(0, 0, 0, 0.6);
+  border-radius: 2em;
 }
 .banner2 {
   display: block;
@@ -74,14 +76,14 @@ header .banner-text {
 }
 header .banner-text h1 {
   font: 90px/1.1em "opensans-bold", sans-serif;
-  color: #cfdff1;
+  color: #ffffff;
   letter-spacing: -2px;
   margin: 0 auto 18px auto;
-  padding-top: 120px;
+  padding-top: 50px;
 }
 header .banner-text h3 {
   font: 18px/1.9em "librebaskerville-regular", serif;
-  color: #ddd;
+  color: #ffffff;
   margin: 0 auto;
   width: 70%;
 }
@@ -206,7 +208,7 @@ ul#nav li a:active {
   background-color: transparent !important;
 }
 ul#nav li.current a {
-  color: #fe6928;
+  color: #fafe28;
 }
 
 /* ------------------------------------------------------------------ */
