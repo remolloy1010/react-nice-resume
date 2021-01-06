@@ -7,7 +7,7 @@
     "whysoftware": "I became a software developer because....",
     "contactmessage":"Get in contact with me!",
     "email": "remolloy101@gmail.com",
-    "phone": "281-753-7807",
+    "phone": "",
     "github":"https://github.com/remolloy1010",
     "project":"https://github.com/remolloy1010/react-nice-resume",
     "address":{
@@ -37,7 +37,7 @@
         "school":"Virgina Tech",
         "degree":"B.S. Mechanical Engineering",
         "graduated":"May 2019",
-        "description":"Although I started out in Biological Systems Engineering with an interest in both the heatlhcare and environmental field, I quickly realized that my wide range of interests were better suited for a more versatile major. Less than halfway through my college career, I switched to Mechanical Engineering and eventually focused on medical devices. Through various design teams and side projects, I tinkered around with Arduino and Matlab, and was drawn to the challenge and problem-solving thrills of coding. College exposed me to this area and peaked my interest enough to continue coding side projects and courses post-graduation."
+        "description":"Although I started out in Biological Systems Engineering with an interest in both the healthcare and environmental field, I quickly realized that my wide range of interests were better suited for a more versatile major. Less than halfway through my college career, I switched to Mechanical Engineering and eventually focused on medical devices. Through various design teams and side projects, I tinkered around with Arduino and Matlab, and was drawn to the challenge and problem-solving thrills of coding. College exposed me to this area and peaked my interest enough to continue coding side projects and courses post-graduation."
       }
     ],
     "certifications":[
@@ -45,7 +45,7 @@
         "course": "The Data Scientist's Toolbox",
         "site":"Coursera",
         "date":"June 2020",
-        "description":"Part 1/5 of 'Data Science: Foundations Using R' Specialization. Introduction course that provided overview of tools used by data analysts and data scientists, such as version control, markdown, git, GitHub, R and RStudio."
+        "description":"Part 1/5 of 'Data Science: Foundations Using R' Specialization. Introduction course that provided overview of tools used by data analysts and data scientists, such as version control, markdown, Git, GitHub, R and RStudio."
       },
       {
         "course": "Python Classes and Inheritance",
@@ -78,14 +78,14 @@
         "company":"Becton Dickinson",
         "title":"R&D Engineer, Engineering Development Program",
         "years":"July 2019 - Present",
-        "description":"I am currently working at BD as part of a 3-year rotational program, where I rotate to different business units and roles within R&D. Throughout my first rotation, as I started to take online coding courses and develop more of an interest in software, I started looking for opportunities to code for work. That's when I decided to take turn my managers' project timelines Excel visualization tool into a web app. I started out simple - for my first web app, I converted an Excel tool I made to determine compliance of some of our designs to an ISO standard. I then transitioned to creating a React web app to visualize portfolio timelines, and am currently working on securing and hosting the app to BD's itranet to share across different sites.",
+        "description":"I am currently working at BD as part of a 3-year rotational program, where I rotate to different business units and roles within R&D. Throughout my first rotation, as I started to take online coding courses and develop more of an interest in software, I started looking for opportunities to code for work. That's when I decided to turn my managers' project timelines Excel visualization tool into a web app. I started out simple - for my first web app, I converted an Excel tool I made to determine compliance of some of our designs to an ISO standard. I then transitioned to creating a React web app to visualize portfolio timelines, and am currently working on securing and hosting the app to BD's intranet to share across different sites.",
         "description2":"For my 2nd rotation, I intentionally looked for a primarily software-based role, in an effort to transition to a full-time software developer role in the future. I am currently remote working on a San Diego-based team to automate R&D workflows for antibody development. Most of my responsibility resides in supporting and developing automation solutions for flow cytometry data analysis and data storage. Most of my coding projects have involved developing Shiny apps to structure data inputs for other parts of the pipeline, and automate parts of our data analysis."
       },
       {
         "company":"Intuitive Surgical",
         "title":"Systems Engineering Intern",
         "years":"June 2018 - May 2019",
-        "description":"During this internship, I was responsible for designing, prototyping, automating, and eventually documenting a 3-axis precision test fixture for fiber optic shape sensing connections for R&D testing. This was one of the most exciting and hands-on work experiences I've had to date. As a Systems Engineering intern, I developed a mindset to understand and design for the entire system, considering how both the mechanics and controls impact one another, and how to troubleshoot between the two. This internship also enhanced my interest in controls - although LabVIEW is very different from any programming tools I currently use and am interested in pursuing, it taught me how to debug and how to apply basic software/controls logic."
+        "description":"During this internship, I was responsible for designing, prototyping, automating, and eventually documenting a 3-axis precision test fixture for fiber optic shape sensing connections for R&D testing. This was one of the most exciting and hands-on work experiences I've had to date. As a Systems Engineering intern, I developed a mindset to understand and design for the entire system, considering how both the mechanics and controls impact one another, and how to troubleshoot between the two. This internship also enhanced my interest in controls - although LabVIEW is very different from any programming tools I currently use, it taught me how to debug and how to apply basic software/controls logic."
       },
       {
         "company":"NASA Langley Research Center",
@@ -107,7 +107,7 @@
       },
       {
         "name":"Shiny",
-        "description":"This is by far my favorite R package! When our team at BD had the need for a GUI to run some of our custom R packages, I taught myself Shiny and developed one. Soon it became evident how useful Shiny apps were for our automation goals, so I developed several others that are not hosted on BD's intranet.",
+        "description":"This is by far my favorite R package! When our team at BD had the need for a GUI to run some of our custom R packages, I taught myself Shiny and developed one. Soon it became evident how useful Shiny apps were for our automation goals, so I developed several others that are now hosted on BD's intranet.",
         "image":"shiny.png"
       },
       {
