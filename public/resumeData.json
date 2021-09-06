@@ -1,157 +1,150 @@
 {
   "main": {
-    "name":"Rachel Molloy",
-    "description":"I am a Mechanical Engineer-turned-Software-Developer who is super passionate about coding, automating workflows, and data visualization! Currently employed at a medical device company, Becton Dickinson, in an Engineering Development Program, I work with an Antibody Development Team to develop and support software solutions to automate their workflow",
-    "image":"profilepic.jpg",
-    "bio":"Although I've always been interested in coding, it wasn't until graduating college and taking online Python courses that I found my true passion for software. I started with a few Python Coursera courses before developing my first two web apps in React! From there, I developed a true passion for UI and data visualization, and have been hooked ever since. When I'm not working or coding side projects, you can find me either running around the beautiful Wasatch Mountains, climbing or bouldering rock faces (both inside and out), huddled up in a chair reading, or hitting the slopes!",
+    "name": "Rachel Molloy",
+    "description": "I am a Mechanical Engineer-turned-Software-Developer who is super passionate about coding, automating workflows, and data visualization! Currently employed at a medical device company, Becton Dickinson, in an Engineering Development Program, I work with an Antibody Development Team to develop and support software solutions to automate their workflow",
+    "image": "profilepic.jpg",
+    "bio": "Although I've always been interested in coding, it wasn't until graduating college and taking online Python courses that I found my true passion for software. I started with a few Python Coursera courses before developing my first two web apps in React! From there, I developed a true passion for UI and data visualization, and have been hooked ever since. When I'm not working or coding side projects, you can find me either running around the beautiful Wasatch Mountains, climbing or bouldering rock faces (both inside and out), huddled up in a chair reading, or hitting the slopes!",
     "whysoftware": "I became a software developer because....",
-    "contactmessage":"Get in contact with me!",
+    "contactmessage": "Get in contact with me!",
     "email": "remolloy101@gmail.com",
     "phone": "",
-    "github":"https://github.com/remolloy1010",
-    "project":"https://github.com/remolloy1010/react-nice-resume",
-    "address":{
-      "city":"Sandy",
-      "state":"Utah",
+    "github": "https://github.com/remolloy1010",
+    "project": "https://github.com/remolloy1010/react-nice-resume",
+    "address": {
+      "city": "Sandy",
+      "state": "Utah",
       "zip": "84093"
     },
     "website": "",
-    "resumedownload":"",
-    "social":[
+    "resumedownload": "",
+    "social": [
       {
-        "name":"linkedin",
-        "url":"https://www.linkedin.com/in/rachelmolloy1996/",
-        "className":"fa fa-linkedin"
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/rachelmolloy1996/",
+        "className": "fa fa-linkedin"
       },
       {
-        "name":"github",
-        "url":"https://github.com/remolloy1010",
-        "className":"fa fa-github"
+        "name": "github",
+        "url": "https://github.com/remolloy1010",
+        "className": "fa fa-github"
       }
     ]
   },
-  "resume":{
-    "skillmessage":"Here are some of my favorites programming languages and tools that I've enjoyed using.",
-    "education":[
+  "resume": {
+    "skillmessage": "Here are some of my favorites programming languages and tools that I've enjoyed using.",
+    "education": [
       {
-        "school":"Virgina Tech",
-        "degree":"B.S. Mechanical Engineering",
-        "graduated":"May 2019",
-        "description":"Although I started out in Biological Systems Engineering with an interest in both the healthcare and environmental field, I quickly realized that my wide range of interests were better suited for a more versatile major. Less than halfway through my college career, I switched to Mechanical Engineering and eventually focused on medical devices. Through various design teams and side projects, I tinkered around with Arduino and Matlab, and was drawn to the challenge and problem-solving thrills of coding. College exposed me to this area and peaked my interest enough to continue coding side projects and courses post-graduation."
+        "school": "Virgina Tech",
+        "degree": "B.S. Mechanical Engineering",
+        "graduated": "May 2019",
+        "description": "Although I started out in Biological Systems Engineering with an interest in both the healthcare and environmental field, I quickly realized that my wide range of interests were better suited for a more versatile major. Less than halfway through my college career, I switched to Mechanical Engineering and eventually focused on medical devices. Through various design teams and side projects, I tinkered around with Arduino and Matlab, and was drawn to the challenge and problem-solving thrills of coding. College exposed me to this area and peaked my interest enough to continue coding side projects and courses post-graduation."
       }
     ],
-    "certifications":[
+    "certifications": [
       {
         "course": "The Data Scientist's Toolbox",
-        "site":"Coursera",
-        "date":"June 2020",
-        "description":"Part 1/5 of 'Data Science: Foundations Using R' Specialization. Introduction course that provided overview of tools used by data analysts and data scientists, such as version control, markdown, Git, GitHub, R and RStudio."
+        "site": "Coursera",
+        "date": "June 2020",
+        "description": "Part 1/5 of 'Data Science: Foundations Using R' Specialization. Introduction course that provided overview of tools used by data analysts and data scientists, such as version control, markdown, Git, GitHub, R and RStudio."
       },
       {
         "course": "Python Classes and Inheritance",
-        "site":"Coursera",
-        "date":"Mar 2020",
-        "description":"Part 4/5 of 'Python 3 Programming' Specialization. Covered classes, instances and inheritance, and how to override built-in methods, how to create 'inherited' classes, how to design classes, and introduced 'try-catch' error handling and writing test cases. Final project compounded classes, instances and inheritance concepts to build Wheel of Fortune game."
+        "site": "Coursera",
+        "date": "Mar 2020",
+        "description": "Part 4/5 of 'Python 3 Programming' Specialization. Covered classes, instances and inheritance, and how to override built-in methods, how to create 'inherited' classes, how to design classes, and introduced 'try-catch' error handling and writing test cases. Final project compounded classes, instances and inheritance concepts to build Wheel of Fortune game."
       },
       {
         "course": "Data Collection and Processing with Python",
-        "site":"Coursera",
-        "date":"Feb 2020",
-        "description":"Part 3/5 of 'Python 3 Programming' Specialization. Covered how to fetch and process data from services on the Internet, Python list comprehensions, extracting and processing from deeply nested data, JSON format, and REST APIs. Final project was to construct a 'tag recommender' for the flickr photo sharing site."
+        "site": "Coursera",
+        "date": "Feb 2020",
+        "description": "Part 3/5 of 'Python 3 Programming' Specialization. Covered how to fetch and process data from services on the Internet, Python list comprehensions, extracting and processing from deeply nested data, JSON format, and REST APIs. Final project was to construct a 'tag recommender' for the flickr photo sharing site."
       },
       {
         "course": "Python Functions, Files and Dictionaries",
-        "site":"Coursera",
-        "date":"Jan 2020",
-        "description":"Part 2/5 of 'Python 3 Programming' Specialization. Covered dictionary data structure, user-defined functions, local and global variables, optional and keyword parameter-passing, named functions, lambda expressions, and the sort function. Final project was to read in social media data from a file, compute sentiment scores, and write to csv files."
+        "site": "Coursera",
+        "date": "Jan 2020",
+        "description": "Part 2/5 of 'Python 3 Programming' Specialization. Covered dictionary data structure, user-defined functions, local and global variables, optional and keyword parameter-passing, named functions, lambda expressions, and the sort function. Final project was to read in social media data from a file, compute sentiment scores, and write to csv files."
       },
       {
         "course": "Python Basics",
-        "site":"Coursera",
-        "date":"Dec 2019",
-        "description":"Part 1/5 of 'Python 3 Programming' Specialization. Covered basics of Python 3, including strings and lists data structures and conditional execution and iteration as control structures."
+        "site": "Coursera",
+        "date": "Dec 2019",
+        "description": "Part 1/5 of 'Python 3 Programming' Specialization. Covered basics of Python 3, including strings and lists data structures and conditional execution and iteration as control structures."
       }
     ],
-    
-    "work":[
+
+    "work": [
       {
-        "company":"Becton Dickinson",
-        "title":"R&D Engineer, Engineering Development Program",
-        "years":"July 2019 - Present",
-        "description":"I am currently working at BD as part of a 3-year rotational program, where I rotate to different business units and roles within R&D. Throughout my first rotation, as I started to take online coding courses and develop more of an interest in software, I started looking for opportunities to code for work. That's when I decided to turn my managers' project timelines Excel visualization tool into a web app. I started out simple - for my first web app, I converted an Excel tool I made to determine compliance of some of our designs to an ISO standard. I then transitioned to creating a React web app to visualize portfolio timelines, and am currently working on securing and hosting the app to BD's intranet to share across different sites.",
-        "description2":"For my 2nd rotation, I intentionally looked for a primarily software-based role, in an effort to transition to a full-time software developer role in the future. I am currently remote working on a San Diego-based team to automate R&D workflows for antibody development. Most of my responsibility resides in supporting and developing automation solutions for flow cytometry data analysis and data storage. Most of my coding projects have involved developing Shiny apps to structure data inputs for other parts of the pipeline, and automate parts of our data analysis."
+        "company": "Becton Dickinson",
+        "title": "R&D Engineer, Engineering Development Program",
+        "years": "July 2019 - Present",
+        "description": "I am currently working at BD as part of a 3-year rotational program, where I rotate to different business units and roles within R&D. Throughout my first rotation, as I started to take online coding courses and develop more of an interest in software, I started looking for opportunities to code for work. That's when I decided to turn my managers' project timelines Excel visualization tool into a web app. I started out simple - for my first web app, I converted an Excel tool I made to determine compliance of some of our designs to an ISO standard. I then transitioned to creating a React web app to visualize portfolio timelines, and am currently working on securing and hosting the app to BD's intranet to share across different sites.",
+        "description2": "For my 2nd rotation, I intentionally looked for a primarily software-based role, in an effort to transition to a full-time software developer role in the future. I am currently remote working on a San Diego-based team to automate R&D workflows for antibody development. Most of my responsibility resides in supporting and developing automation solutions for flow cytometry data analysis and data storage. Most of my coding projects have involved developing Shiny apps to structure data inputs for other parts of the pipeline, and automate parts of our data analysis."
       },
       {
-        "company":"Intuitive Surgical",
-        "title":"Systems Engineering Intern",
-        "years":"June 2018 - May 2019",
-        "description":"During this internship, I was responsible for designing, prototyping, automating, and eventually documenting a 3-axis precision test fixture for fiber optic shape sensing connections for R&D testing. This was one of the most exciting and hands-on work experiences I've had to date. As a Systems Engineering intern, I developed a mindset to understand and design for the entire system, considering how both the mechanics and controls impact one another, and how to troubleshoot between the two. This internship also enhanced my interest in controls - although LabVIEW is very different from any programming tools I currently use, it taught me how to debug and how to apply basic software/controls logic."
+        "company": "Intuitive Surgical",
+        "title": "Systems Engineering Intern",
+        "years": "June 2018 - May 2019",
+        "description": "During this internship, I was responsible for designing, prototyping, automating, and eventually documenting a 3-axis precision test fixture for fiber optic shape sensing connections for R&D testing. This was one of the most exciting and hands-on work experiences I've had to date. As a Systems Engineering intern, I developed a mindset to understand and design for the entire system, considering how both the mechanics and controls impact one another, and how to troubleshoot between the two. This internship also enhanced my interest in controls - although LabVIEW is very different from any programming tools I currently use, it taught me how to debug and how to apply basic software/controls logic."
       },
       {
-        "company":"NASA Langley Research Center",
-        "title":"NIFS Intern in Structural Mechanics and Concepts Branch",
-        "years":"Aug 2017 - Dec 2017",
-        "description":"During my co-op, I was primarily responsible for conducting both high and room temperature mechanical testing on advanced carbon-carbon (ACC) composites and analyzing data for the development of a material properties database of ACC for hypersonic and re-entry vehicle applications. During those four months, I tried R for the first time to use in some basic analyses, and finite element analysis (FEA) on test fixture components. I developed a NASA Technical Report on shear material properties for ACC, and was the co-author on a paper for submission to the Composites, Materials and Structures Conference, where I presented the results of the paper."
+        "company": "NASA Langley Research Center",
+        "title": "NIFS Intern in Structural Mechanics and Concepts Branch",
+        "years": "Aug 2017 - Dec 2017",
+        "description": "During my co-op, I was primarily responsible for conducting both high and room temperature mechanical testing on advanced carbon-carbon (ACC) composites and analyzing data for the development of a material properties database of ACC for hypersonic and re-entry vehicle applications. During those four months, I tried R for the first time to use in some basic analyses, and finite element analysis (FEA) on test fixture components. I developed a NASA Technical Report on shear material properties for ACC, and was the co-author on a paper for submission to the Composites, Materials and Structures Conference, where I presented the results of the paper."
       }
     ],
-    "skills":[
+    "skills": [
       {
-        "name":"Python",
-        "description":"This was the first language I learned after Matlab right after college, and chose it due to its popularity and expansive use in industry. After taking a few Coursera courses to get the basics, I used it in some small side projects, and then at work at BD to supplement some automation solutions we already had in place.",
-        "image":"python2.jpg"
+        "name": "Python",
+        "description": "This was the first language I learned after Matlab right after college, and chose it due to its popularity and expansive use in industry. After taking a few Coursera courses to get the basics, I used it in some small side projects, and then at work at BD to supplement some automation solutions we already had in place.",
+        "image": "python2.jpg"
       },
       {
-        "name":"R",
-        "description":"I use R at work at BD almost everyday, and love the packages and open source community! Being one of the only members on the team that had programming experience, I quickly taught myself R and used it to develop several Shiny Apps to automate parts of our workflow.",
-        "image":"R.png"
+        "name": "R",
+        "description": "I use R at work at BD almost everyday, and love the packages and open source community! Being one of the only members on the team that had programming experience, I quickly taught myself R and used it to develop several Shiny Apps to automate parts of our workflow.",
+        "image": "R.png"
       },
       {
-        "name":"Shiny",
-        "description":"This is by far my favorite R package! When our team at BD had the need for a GUI to run some of our custom R packages, I taught myself Shiny and developed one. Soon it became evident how useful Shiny apps were for our automation goals, so I developed several others that are now hosted on BD's intranet.",
-        "image":"shiny.png"
+        "name": "Shiny",
+        "description": "This is by far my favorite R package! When our team at BD had the need for a GUI to run some of our custom R packages, I taught myself Shiny and developed one. Soon it became evident how useful Shiny apps were for our automation goals, so I developed several others that are now hosted on BD's intranet.",
+        "image": "shiny.png"
       },
       {
-        "name":"ReactJS",
-        "description":"I was introduced to React by a friend, and was quickly hooked! When my manager at my 1st BD rotation asked for help automating an Excel spreadsheet he made to track and visualize project timelines, I decided to take the opportunity to learn a new language and turn it into a React web app instead. I'm currently working on securing and hosting it on the BD intranet.",
-        "image":"react.jpg"
+        "name": "ReactJS",
+        "description": "I was introduced to React by a friend, and was quickly hooked! When my manager at my 1st BD rotation asked for help automating an Excel spreadsheet he made to track and visualize project timelines, I decided to take the opportunity to learn a new language and turn it into a React web app instead. I'm currently working on securing and hosting it on the BD intranet.",
+        "image": "react.jpg"
       },
       {
-        "name":"Git",
-        "description":"I use Git for all of my projects so far. While most of my work projects have been developed solo, I'm practicing collaborating on projects, posting PRs and going through code reviews with a friend on the side.",
-        "image":"git.jpg"
+        "name": "Git",
+        "description": "I use Git for all of my projects so far. While most of my work projects have been developed solo, I'm practicing collaborating on projects, posting PRs and going through code reviews with a friend on the side.",
+        "image": "git.jpg"
       },
       {
-        "name":"Matlab",
-        "description":"This was the first programming language I learned in college. Although use in my courses was minimum, I utilized it in a few design teams and projects, including the data analysis for a hydropower side project and data analysis for my senior design project.",
-        "image":"matlab.png"
+        "name": "Matlab",
+        "description": "This was the first programming language I learned in college. Although use in my courses was minimum, I utilized it in a few design teams and projects, including the data analysis for a hydropower side project and data analysis for my senior design project.",
+        "image": "matlab.png"
       },
       {
-        "name":"CSS",
-        "description":"Recently I've been integrating CSS into my Shiny apps and it's made a world of a difference for my UI!",
-        "image":"css4.jpg"
+        "name": "CSS",
+        "description": "Recently I've been integrating CSS into my Shiny apps and it's made a world of a difference for my UI!",
+        "image": "css4.jpg"
       }
-      
     ]
   },
-  "portfolio":{
+  "portfolio": {
     "projects": [
       {
-        "title":"Scaling Graphs",
-        "category":"Visualize whether engineering dimensions are within 'risk zone'",
-        "image":"scaling_graphs.jpg",
-        "url":"https://scaling-graphs.web.app/"
+        "title": "Scaling Graphs",
+        "category": "Visualize whether engineering dimensions are within 'risk zone'",
+        "image": "scaling_graphs.jpg",
+        "url": "https://scaling-graphs.web.app/"
       },
       {
-        "title":"Project Portfolio Timelines",
-        "category":"Visualization tool to track project portfolio timelines and metrics",
-        "image":"project_timelines.jpg",
-        "url":"https://calendar-timelines.web.app/"
-      },
-      {
-        "title":"Reagent Stability Regression Analysis",
-        "category":"Conducts linear regression analysis and predict shelf-life of fluorescent-conjugated reagents",
-        "image":"regression_project.jpg",
-        "url":"https://rachel-molloy.shinyapps.io/stability-regression-demo-app/"
+        "title": "Project Portfolio Timelines",
+        "category": "Visualization tool to track project portfolio timelines and metrics",
+        "image": "project_timelines.jpg",
+        "url": "https://calendar-timelines.web.app/"
       }
     ]
   }
